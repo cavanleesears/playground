@@ -1,0 +1,57 @@
+<html>
+<head>
+    <!--<link rel="stylesheet" href="Page1.css" />-->
+    <style>
+        .styled-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .styled-table thead tr {
+            background-color: #4800ff;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .styled-table tbody tr:nth-of-type(odd) {
+            background-color: #f3f3f3;
+        }
+
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #4800ff;
+        }
+
+        .styled-table tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
+    </style>
+</head>
+<body>
+    <table class="styled-table">
+        <thead>
+            <tr><th>ID</th><th>Full Name</th><th>Age</th><th>Country of Origin</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>362</td><td>Cavan Lee Sears</td><td>49</td><td>Wales</td></tr>
+            <tr><td>411</td><td>Stephen Lee Sears</td><td>18</td><td>Wales</td></tr>
+            <tr><td>826</td><td>Sophie Nicole Sears</td><td>14</td><td>Wales</td></tr>
+            <tr><td>925</td><td>Elaine Susanne Sears</td><td>47</td><td>England</td></tr>
+            <tr><td>910</td><td>Kira Craig</td><td>19</td><td>Australia</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
